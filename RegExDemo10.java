@@ -8,6 +8,7 @@ public class RegExDemo10 {
 	public static void main(String[] args) {
 		int cnt=0;
 		Pattern p=Pattern.compile("[a-zA-Z0-9][a-zA-Z0-9_$.]*[.]txt");
+		//pattern can be replaced with ("\\w[\\w$.]*.txt")
 		File f=new File("/home/m4n15h/Desktop/workspace/Regex");
 		String s[]=f.list();
 		for(String s1:s){
