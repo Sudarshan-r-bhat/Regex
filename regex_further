@@ -1,0 +1,3 @@
+(?s)
+(?m) : can be used to make .* match break character "\n"
+s is for single line and m is for multiline.
